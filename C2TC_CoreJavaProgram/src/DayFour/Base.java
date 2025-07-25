@@ -21,13 +21,11 @@ public class Base {
 		System.out.println("Public access Base class");
 		System.out.println("Public Variable : "+varPublic);
 	}
-	
 	void methodPrivate()
 	{
 		System.out.println("Private access Base class");
 		System.out.println("Private Variable : "+varPrivate);
 	}
-	
 	protected void methodProtected()
 	{
 		System.out.println("Protected access Base class");
